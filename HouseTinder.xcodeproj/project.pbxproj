@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B88309529E5B5A60074571E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88309429E5B5A60074571E /* AppDelegate.swift */; };
+		6B88309729E5B5A60074571E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88309629E5B5A60074571E /* SceneDelegate.swift */; };
+		6B88309929E5B5A60074571E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88309829E5B5A60074571E /* ViewController.swift */; };
+		6B88309C29E5B5A60074571E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B88309A29E5B5A60074571E /* Main.storyboard */; };
+		6B88309E29E5B5A70074571E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B88309D29E5B5A70074571E /* Assets.xcassets */; };
+		6B8830A129E5B5A70074571E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B88309F29E5B5A70074571E /* LaunchScreen.storyboard */; };
+		6B8830AC29E5B5A80074571E /* HouseTinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8830AB29E5B5A80074571E /* HouseTinderTests.swift */; };
+		6B8830B629E5B5A80074571E /* HouseTinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8830B529E5B5A80074571E /* HouseTinderUITests.swift */; };
+		6B8830B829E5B5A80074571E /* HouseTinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8830B729E5B5A80074571E /* HouseTinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B8830A829E5B5A80074571E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B88308929E5B5A60074571E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B88309029E5B5A60074571E;
+			remoteInfo = HouseTinder;
+		};
+		6B8830B229E5B5A80074571E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B88308929E5B5A60074571E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B88309029E5B5A60074571E;
+			remoteInfo = HouseTinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B88309129E5B5A60074571E /* HouseTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B88309429E5B5A60074571E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B88309629E5B5A60074571E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B88309829E5B5A60074571E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B88309B29E5B5A60074571E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B88309D29E5B5A70074571E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8830A029E5B5A70074571E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B8830A229E5B5A80074571E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8830A729E5B5A80074571E /* HouseTinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseTinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8830AB29E5B5A80074571E /* HouseTinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTinderTests.swift; sourceTree = "<group>"; };
+		6B8830B129E5B5A80074571E /* HouseTinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseTinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8830B529E5B5A80074571E /* HouseTinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTinderUITests.swift; sourceTree = "<group>"; };
+		6B8830B729E5B5A80074571E /* HouseTinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B88308E29E5B5A60074571E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8830A429E5B5A80074571E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8830AE29E5B5A80074571E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B88308829E5B5A60074571E = {
+			isa = PBXGroup;
+			children = (
+				6B88309329E5B5A60074571E /* HouseTinder */,
+				6B8830AA29E5B5A80074571E /* HouseTinderTests */,
+				6B8830B429E5B5A80074571E /* HouseTinderUITests */,
+				6B88309229E5B5A60074571E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B88309229E5B5A60074571E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B88309129E5B5A60074571E /* HouseTinder.app */,
+				6B8830A729E5B5A80074571E /* HouseTinderTests.xctest */,
+				6B8830B129E5B5A80074571E /* HouseTinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B88309329E5B5A60074571E /* HouseTinder */ = {
+			isa = PBXGroup;
+			children = (
+				6B88309429E5B5A60074571E /* AppDelegate.swift */,
+				6B88309629E5B5A60074571E /* SceneDelegate.swift */,
+				6B88309829E5B5A60074571E /* ViewController.swift */,
+				6B88309A29E5B5A60074571E /* Main.storyboard */,
+				6B88309D29E5B5A70074571E /* Assets.xcassets */,
+				6B88309F29E5B5A70074571E /* LaunchScreen.storyboard */,
+				6B8830A229E5B5A80074571E /* Info.plist */,
+			);
+			path = HouseTinder;
+			sourceTree = "<group>";
+		};
+		6B8830AA29E5B5A80074571E /* HouseTinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8830AB29E5B5A80074571E /* HouseTinderTests.swift */,
+			);
+			path = HouseTinderTests;
+			sourceTree = "<group>";
+		};
+		6B8830B429E5B5A80074571E /* HouseTinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8830B529E5B5A80074571E /* HouseTinderUITests.swift */,
+				6B8830B729E5B5A80074571E /* HouseTinderUITestsLaunchTests.swift */,
+			);
+			path = HouseTinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B88309029E5B5A60074571E /* HouseTinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8830BB29E5B5A80074571E /* Build configuration list for PBXNativeTarget "HouseTinder" */;
+			buildPhases = (
+				6B88308D29E5B5A60074571E /* Sources */,
+				6B88308E29E5B5A60074571E /* Frameworks */,
+				6B88308F29E5B5A60074571E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseTinder;
+			productName = HouseTinder;
+			productReference = 6B88309129E5B5A60074571E /* HouseTinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B8830A629E5B5A80074571E /* HouseTinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8830BE29E5B5A80074571E /* Build configuration list for PBXNativeTarget "HouseTinderTests" */;
+			buildPhases = (
+				6B8830A329E5B5A80074571E /* Sources */,
+				6B8830A429E5B5A80074571E /* Frameworks */,
+				6B8830A529E5B5A80074571E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8830A929E5B5A80074571E /* PBXTargetDependency */,
+			);
+			name = HouseTinderTests;
+			productName = HouseTinderTests;
+			productReference = 6B8830A729E5B5A80074571E /* HouseTinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B8830B029E5B5A80074571E /* HouseTinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8830C129E5B5A80074571E /* Build configuration list for PBXNativeTarget "HouseTinderUITests" */;
+			buildPhases = (
+				6B8830AD29E5B5A80074571E /* Sources */,
+				6B8830AE29E5B5A80074571E /* Frameworks */,
+				6B8830AF29E5B5A80074571E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8830B329E5B5A80074571E /* PBXTargetDependency */,
+			);
+			name = HouseTinderUITests;
+			productName = HouseTinderUITests;
+			productReference = 6B8830B129E5B5A80074571E /* HouseTinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B88308929E5B5A60074571E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6B88309029E5B5A60074571E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6B8830A629E5B5A80074571E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6B88309029E5B5A60074571E;
+					};
+					6B8830B029E5B5A80074571E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6B88309029E5B5A60074571E;
+					};
+				};
+			};
+			buildConfigurationList = 6B88308C29E5B5A60074571E /* Build configuration list for PBXProject "HouseTinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B88308829E5B5A60074571E;
+			productRefGroup = 6B88309229E5B5A60074571E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B88309029E5B5A60074571E /* HouseTinder */,
+				6B8830A629E5B5A80074571E /* HouseTinderTests */,
+				6B8830B029E5B5A80074571E /* HouseTinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B88308F29E5B5A60074571E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8830A129E5B5A70074571E /* LaunchScreen.storyboard in Resources */,
+				6B88309E29E5B5A70074571E /* Assets.xcassets in Resources */,
+				6B88309C29E5B5A60074571E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8830A529E5B5A80074571E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8830AF29E5B5A80074571E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B88308D29E5B5A60074571E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B88309929E5B5A60074571E /* ViewController.swift in Sources */,
+				6B88309529E5B5A60074571E /* AppDelegate.swift in Sources */,
+				6B88309729E5B5A60074571E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8830A329E5B5A80074571E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8830AC29E5B5A80074571E /* HouseTinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8830AD29E5B5A80074571E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8830B629E5B5A80074571E /* HouseTinderUITests.swift in Sources */,
+				6B8830B829E5B5A80074571E /* HouseTinderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B8830A929E5B5A80074571E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B88309029E5B5A60074571E /* HouseTinder */;
+			targetProxy = 6B8830A829E5B5A80074571E /* PBXContainerItemProxy */;
+		};
+		6B8830B329E5B5A80074571E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B88309029E5B5A60074571E /* HouseTinder */;
+			targetProxy = 6B8830B229E5B5A80074571E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B88309A29E5B5A60074571E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B88309B29E5B5A60074571E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B88309F29E5B5A70074571E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8830A029E5B5A70074571E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8830B929E5B5A80074571E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B8830BA29E5B5A80074571E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8830BC29E5B5A80074571E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AP78ZTLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HouseTinder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakobHuber96.HouseTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B8830BD29E5B5A80074571E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AP78ZTLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HouseTinder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakobHuber96.HouseTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B8830BF29E5B5A80074571E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AP78ZTLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakobHuber96.HouseTinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseTinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HouseTinder";
+			};
+			name = Debug;
+		};
+		6B8830C029E5B5A80074571E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AP78ZTLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakobHuber96.HouseTinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseTinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HouseTinder";
+			};
+			name = Release;
+		};
+		6B8830C229E5B5A80074571E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AP78ZTLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakobHuber96.HouseTinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HouseTinder;
+			};
+			name = Debug;
+		};
+		6B8830C329E5B5A80074571E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AP78ZTLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakobHuber96.HouseTinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HouseTinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B88308C29E5B5A60074571E /* Build configuration list for PBXProject "HouseTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8830B929E5B5A80074571E /* Debug */,
+				6B8830BA29E5B5A80074571E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8830BB29E5B5A80074571E /* Build configuration list for PBXNativeTarget "HouseTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8830BC29E5B5A80074571E /* Debug */,
+				6B8830BD29E5B5A80074571E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8830BE29E5B5A80074571E /* Build configuration list for PBXNativeTarget "HouseTinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8830BF29E5B5A80074571E /* Debug */,
+				6B8830C029E5B5A80074571E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8830C129E5B5A80074571E /* Build configuration list for PBXNativeTarget "HouseTinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8830C229E5B5A80074571E /* Debug */,
+				6B8830C329E5B5A80074571E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B88308929E5B5A60074571E /* Project object */;
+}
